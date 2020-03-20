@@ -4,6 +4,26 @@
     <TargetFramework>netstandard1.6</TargetFramework>
     <AssemblyName>DapperExtensions</AssemblyName>
     <RootNamespace>DapperExtensions</RootNamespace>
+    <PackageId>Wng.DapperExtensions</PackageId>
+    <Version>1.6.1</Version>
+    <Authors>Thad Smith, Page Brooks, Sergii Bezzubchenko</Authors>
+    <Company>nib Travel IT</Company>
+    <Product>Wng.DapperExtensions</Product>
+    <Description>A small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs. For more advanced querying scenarios, Dapper Extensions provides a predicate system.</Description>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/dgurram/Dapper-Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dgurram/Dapper-Extensions</RepositoryUrl>
+    <PackageReleaseNotes>1.6.0
+      * Added nuget package metadata for DapperExtensionsCore.
+1.5.0
+      * Nuget Package Restore
+      * Do not set Guid on key when already set
+      * Do not include key in SET for UPDATEs
+      * Added Support for .NET 4.5 async/await</PackageReleaseNotes>
+    <PackageTags>orm sql micro-orm Data Dapper</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.6.1.0</AssemblyVersion>
+    <FileVersion>1.6.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
